@@ -26,15 +26,18 @@ const Navbar = () => {
             tabindex="0"
             class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
           >
-            <li>
-              <a>Completed Task</a>
-            </li>
-            <li>
-              <a>To-Do List</a>
-            </li>
-            <li>
-              <a>Calender</a>
-            </li>
+           <li>
+            <Link to='/completedtask'>Completed Task</Link>
+          </li>
+          <li>
+            <Link to='/addtask'>Add Task</Link>
+          </li>
+          <li>
+            <Link to='todo'>To-Do List</Link>
+          </li>
+          <li>
+            <Link to='calender'>Calender</Link>
+          </li>
           </ul>
         </div>
         <Link to='/' class="btn btn-ghost normal-case text-xl">Task Management</Link>
@@ -43,6 +46,9 @@ const Navbar = () => {
         <ul class="menu menu-horizontal p-0">
           <li>
             <Link to='/completedtask'>Completed Task</Link>
+          </li>
+          <li>
+            <Link to='/addtask'>Add Task</Link>
           </li>
           <li>
             <Link to='todo'>To-Do List</Link>

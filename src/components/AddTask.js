@@ -33,7 +33,7 @@ const AddTask = () => {
         event.target.reset();
     }
   return (
-    <div className="mt-8 block lg:flex ">
+    <div className="mt-8 mb-24 block lg:flex ">
       <form onSubmit={handleForm} className="flex flex-col sm:w-1/2 lg:w-1/4  items-center gap-4 mx-auto bg-cyan-600 p-5 rounded-lg ">
         <input
           type="text"

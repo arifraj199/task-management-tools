@@ -27,7 +27,7 @@ const ToDo = () => {
         })
     }
     return (
-        <div className="grid sm:grid-cols-1 lg:grid-cols-3">
+        <div className="grid sm:grid-cols-1 lg:grid-cols-3 mb-80">
         {
             task?.map(todo => <MyTodo 
                 key={todo._id} 

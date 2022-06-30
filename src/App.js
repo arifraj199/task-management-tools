@@ -8,6 +8,7 @@ import Navbar from './components/Navbar';
 import AddTask from './components/AddTask';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path='/todo' element={<ToDo></ToDo>}></Route>
         <Route path='/calender' element={<Calender></Calender>}></Route>
       </Routes>
+      <Footer></Footer>
       <ToastContainer></ToastContainer>
     </div>
   );
