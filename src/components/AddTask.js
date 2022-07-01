@@ -14,7 +14,7 @@ const AddTask = () => {
             description:description
         }
 
-        fetch(`http://localhost:5000/addtask`,{
+        fetch(`https://stark-caverns-46049.herokuapp.com/addtask`,{
             method:"POST",
             headers:{
                 "content-type":"application/json"
